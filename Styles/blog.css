@@ -1,8 +1,12 @@
 body {
-    background-color: beige;
+    background-image: url('../Images/Website\ background\ photo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 h1 {
     color: darkblue;
+    background-color: beige;
     font-family: Arial, sans-serif;
     text-align: center;
     border: 2px solid darkblue;
@@ -10,15 +14,58 @@ h1 {
     padding: 20px;
     margin: auto;
     border-radius: 10px;
-    box-shadow: 5px 4px 8px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 10px 10px #f5f5f533;
+}
+h2 {
+    color: darkblue;
+    background-color: rgb(121, 221, 221);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    border: 2px solid darkblue;
+    width: 50%;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #f5f5f533;
+}
+h3 {
+    color: darkblue;
+    background-color: rgba(100, 211, 128, 0.849);
+    font-family: Arial, sans-serif;
+    text-align: left;
+    border: 2px solid darkblue;
+    display: inline-block;
+    padding: 10px;
+    margin: 30px;
+    margin-bottom: 0%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #f5f5f533;
 }
 p {
+    background-color: rgb(41, 41, 36);
+    opacity: 0.75;
     font-family: Georgia, serif;
     text-align: justify;
     font-size: 16px;
     line-height: 1.6;
-    color: #333;
+    color: white;
     margin: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 30px;
+}
+ol {
+    background-color: rgb(41, 41, 36);
+    opacity: 0.75;
+    font-family: Georgia, serif;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.6;
+    color: white;
+    margin: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 30px;
 }
 #footer {
     text-align: center;
@@ -29,6 +76,6 @@ p {
     margin: 0%;
     margin-top: 20px;
     padding: 10px;
-    background-color: #11a59e;
+    background-color: #0a6661;
     border-top: 1px solid #ccc;
 }
